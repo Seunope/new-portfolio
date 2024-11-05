@@ -25,6 +25,13 @@
 
 -------------------------------------------------
 */
+/*------OPE-------*/
+.circular-image img {
+  width: 70px;         /* Set the width of the image */
+  height: 70px;        /* Set the height of the image */
+  border-radius: 50%;   /* Makes the image circular */
+  object-fit: cover;    /* Ensures the image fills the circle */
+}
 /*--------------- ---- Responsive --------------------------*/
 /*-------------   Color Variable  --------------*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
